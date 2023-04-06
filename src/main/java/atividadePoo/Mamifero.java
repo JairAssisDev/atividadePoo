@@ -20,7 +20,7 @@ public class Mamifero extends Animal {
     public void dadosMamifero() {
         System.out.println("Dados do Mamífero:");
         System.out.println("Nome: " + getNome());
-        System.out.println("Comprimento: " + getComprimento() + " cm");
+        System.out.println("Comprimento: " + getComprimento() +" cm");
         System.out.println("Patas: " + getPatas());
         System.out.println("Cor: " + getCor());
         System.out.println("Ambiente: " + getAmbiente());
