@@ -18,11 +18,11 @@ public class Peixe extends Animal {
     }
     public void dadosPeixe() {
     	System.out.println("nome "+getNome());
-    	System.out.println("Comprimento "+getComprimento()+"cm");
+    	System.out.println("Comprimento "+getComprimento()+" cm");
     	System.out.println("patas"+getPatas());
     	System.out.println("cor "+getCor());
     	System.out.println("Ambiente "+getAmbiente());
-    	System.out.println("velocidade "+getVelocidade()+"m/s");
+    	System.out.println("velocidade "+getVelocidade()+" m/s");
     	System.out.println("caracteristica "+getCaracteristica());
     	System.out.println(":)");
     }
