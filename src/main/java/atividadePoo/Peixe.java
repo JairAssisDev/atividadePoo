@@ -22,7 +22,7 @@ public class Peixe extends Animal {
     	System.out.println("patas"+getPatas());
     	System.out.println("cor "+getCor());
     	System.out.println("Ambiente "+getAmbiente());
-    	System.out.println("velocidade "+getVelocidade());
+    	System.out.println("velocidade "+getVelocidade()+"m/s");
     	System.out.println("caracteristica "+getCaracteristica());
     	System.out.println(":)");
     }
