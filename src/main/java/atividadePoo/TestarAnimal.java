@@ -9,7 +9,7 @@ public class TestarAnimal {
         camelo.dadosMamifero();
 
         
-        System.out.println("lista de comfiguraçoes do tubarão de recife");
+        System.out.println("lista de comfiguraçoes do tubarão ");
        
         tubarao.dadosPeixe();
     }
