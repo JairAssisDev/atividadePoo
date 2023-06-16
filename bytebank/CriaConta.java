@@ -11,7 +11,7 @@ public class CriaConta {
 
         Conta segundaConta = new Conta();
         segundaConta.saldo = 300;
-
+        segundaConta.depositar(300.3);
         System.out.println("primeira conta tem " + primeiraConta.saldo);
         System.out.println("segunda conta tem " + segundaConta.saldo);
 
