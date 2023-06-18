@@ -5,7 +5,7 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular;
-    
+    private static int total;
     
 	public double getSaldo() {
 		return saldo;
@@ -17,13 +17,24 @@ public class Conta {
 		return agencia;
 	}
 	public void setAgencia(int agencia) {
+		
+		if (agencia<=0) {
+			System.out.println("entrada invalida");
+			return;
+		}else {
 		this.agencia = agencia;
+		}
 	}
 	public int getNumero() {
 		return numero;
 	}
 	public void setNumero(int numero) {
+		if (numero<=0) {
+			System.out.println("entrada invalida");
+			return;
+		}else {
 		this.numero = numero;
+		}
 	}
 	public Cliente getTitular() {
 		return titular;
@@ -58,10 +69,13 @@ public class Conta {
     }
 	public Conta(double saldo, int agencia, int numero, Cliente titular) {
 		super();
+		Conta.total++;
 		this.saldo = saldo;
 		this.agencia = agencia;
 		this.numero = numero;
 		this.titular = titular;
 	}
-    
+    public static int Total() {
+    	return Conta.total;
+    }
 }
