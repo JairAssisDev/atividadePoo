@@ -11,6 +11,7 @@ public class Main {
         	
         	
         	System.out.println("====== MENU PRINCIPAL ======");
+            System.out.println("============================");
             System.out.println("1. Cliente");
             System.out.println("2. Funcionario");
             System.out.println("0. Sair");
