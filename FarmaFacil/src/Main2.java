@@ -136,6 +136,7 @@ public class Main2 {
                  
                  
             System.out.println("====== MENU PRINCIPAL ======");
+	    System.out.println("============================");
             System.out.println("1. Adicionar Produto");
             System.out.println("2. Remover Produto");
             System.out.println("3. Verificar Estoque");
