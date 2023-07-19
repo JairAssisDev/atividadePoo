@@ -1,9 +1,8 @@
 package javapilha;
 
+//apenas para testar o tratamento de exceções
 public class Conta {
 
-	
-	public void deposita() {
-		System.out.println("sdsdsd");
-	}
+    void deposita() {}
+
 }
