@@ -147,6 +147,7 @@ public class Main2 {
             System.out.println("0. Sair");
             System.out.println("============================");
             System.out.print("Escolha uma opção: ");
+	    System.out.println("============================");
             
         }
     }
