@@ -1,6 +1,6 @@
 package br.com.bytebank.banco.test;
 
-import modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.ContaCorrente;
 
 public class TesteArrayDeReferencias {
 
