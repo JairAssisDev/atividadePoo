@@ -26,7 +26,7 @@ public class TestaMetodo {
 		rebson.cpf="434.342.434-34";
 		rebson.nome="rebson";
 		
-		
+		System.out.println("-------------");
 		System.out.println(rebson.endereco.cep);
 		System.out.println(rebson.endereco.cidade_estado);
 		System.out.println(rebson.endereco.numerodaCasa);
