@@ -11,7 +11,7 @@ public class FluxoComTratamento {
 		    System.out.println("ArithmeticException " + msg);
 		    ex.printStackTrace();
 		} 
-		System.out.println("Fim do main");
+		System.out.println("Fim do main.");
 	}
 
 	private static void metodo1() {
