@@ -38,7 +38,8 @@ public class AppByteBanck {
             System.out.println("Agência: " + conta.getAgencia());
             System.out.println("Saldo: " + conta.getSaldo());
 
-            Cliente titular = conta.getTitular();
+       System.out.println("---------------------------");
+     Cliente titular = conta.getTitular();
             System.out.println("\nDados do Titular:");
             System.out.println("Nome: " + titular.getNome());
             System.out.println("CPF: " + titular.getCpf());
